@@ -179,20 +179,6 @@ h1,h2,h3,h4,h5,h6{
 .slider_item.active{
     opacity: 1;
 }
-.slider_item.active::before{
-
-    content: "";
-    display: block;
-    width: 70px;
-    height: 3px;
-    position: absolute;
-    /*
-    background-color: #f38181;
-    */
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
 .slider_num{
 
     font-size: 24px;
@@ -227,9 +213,9 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
 }
 .hyper{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    color:#333;
+    color:#999;
 }
 .section_title::after{
     content: "";
@@ -238,6 +224,6 @@ h1,h2,h3,h4,h5,h6{
     width: 60px;
     height: 3px;
     background-color: #f38181;
-    margin: 50px auto 50px;
+    margin: 40px auto 50px;
 
 }
