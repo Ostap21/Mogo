@@ -227,3 +227,14 @@ h1,h2,h3,h4,h5,h6{
     margin: 40px auto 50px;
 
 }
+
+/*ABOUT*/
+
+.about{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about_item{
+    width: 30%;
+}
